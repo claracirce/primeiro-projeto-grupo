@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(183, 213, 231) ;
+    text-align: center;
+    
+}
+h1 {
+    margin-top: 25px;
+}
+
+
+.box-container {
+  background-color: #ffffff;       /* fundo branco */
+  padding: 20px;                /* espaçamento interno */
+  margin: 20px auto;            /* centraliza horizontal e espaça vertical */
+  width: 38%;                   /* largura consistente com a tabela */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* sombra suave */
+  border-radius: 10px;          /* cantos arredondados */
+  text-align: left;             /* para os inputs ficarem alinhados à esquerda */
+  font-size: 16px;
+
+}
+
+.box-container img {
+    width: 90px;
+    margin-left: 30%;
+    margin-top: -10%;
+    padding: 15px;
+
+}
+
+.box-imagem img {
+    width: 500px;
+    align-items: center;
+
+
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: black;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(70, 114, 236);
+    color: white;
+}
+
