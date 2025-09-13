@@ -64,6 +64,15 @@ h1 {
     align-items: center;
     
 }
+.img4 {
+    
+    align-items: center;
+    
+    padding: 15px;
+    width: 300px; /* ou outro valor desejado */
+    height: auto; /* mantém a proporção da imagem */
+
+}
 
 a {
     background-color: white;
