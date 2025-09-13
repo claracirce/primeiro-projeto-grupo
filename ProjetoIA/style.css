@@ -61,20 +61,27 @@ h1 {
     background-color: #ffffff;
     padding: 20px;
     margin: 20px auto;
-    width: 38%;
+    width: 60%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: left;
     font-size: 16px;
 
 }
-
-.box-container img {
+/* Ajuste do tamanho e alinhamento das imagens na pag3 */
+.box-container h2 img {
     width: 90px;
-    margin-left: 37%;
-    margin-top: -8.5%;
-    padding: 15px;
+    vertical-align: middle;
+}
+.box-container h2 #noteLogo {
+    width: 150px;
+}
 
+/* Ajuste na imagem da pag4 */
+
+#robo3{ 
+    width: 90%;
+    margin: 50px 30px;
 }
 
 .container-robo img {
@@ -94,6 +101,13 @@ a {
 a:hover {
     background-color: rgb(70, 114, 236);
     color: white;
+}
+
+    /* lista nao ordenada pag4*/ 
+
+.lista li {
+    margin: 20px 30px;
+    text-align: justify;
 }
 
 footer {
